@@ -1,18 +1,19 @@
+
 # listplus
 
-## Description
+## 描述
 
-Lists written based on golang `list` that support generics and sorting
+基于 golang `list` 修改，支持泛型和排序的 `list`
 
-## Installation
+## 安装
 
 ```bash
 go get github.com/lqxhub/listplus
 ```
 
-### Usage
+### 使用
 
-Same as golang's `list` usage, except that generics and sorting are supported
+与 golang 的 `list` 用法相同，只是支持泛型和排序
 
 ```go
 list := New[int]()
